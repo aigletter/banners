@@ -26,7 +26,7 @@ $repository = new DatabaseRepository(
 
 $service = new Service($repository,);
 
-$service->show(realpath(dirname(__DIR__) . '/images/banner.jpg'));
+$renderer = $service->show(__DIR__ . '/banner.jpg');
 
 $renderer->render();
 ```
