@@ -1,0 +1,20 @@
+{
+    "name": "aigletter/banners",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aigletter\\TestTask\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yurii Orlyk",
+            "email": "aigletter@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-fileinfo": "*"
+    }
+}
